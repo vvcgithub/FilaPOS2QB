@@ -8,7 +8,7 @@ namespace POS2QB_WebApp.Controllers
 {
     public class AdminController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Admin()
         {
             return View();
         }
