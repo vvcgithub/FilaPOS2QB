@@ -12,5 +12,15 @@ namespace POS2QB_WebApp.Controllers
         {
             return View();
         }
+
+        public IActionResult Branches()
+        {
+            return View();
+        }
+
+        public IActionResult BranchesUserAccess()
+        {
+            return View();
+        }
     }
 }
